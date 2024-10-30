@@ -1,0 +1,6 @@
+﻿  03_03_16.c
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_16\03_03_16.c(12,43): warning C4133: '=': 'double *'과(와) 'test_str *' 사이의 형식이 호환되지 않습니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_16\03_03_16.c(17,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'test *'입니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_16\03_03_16.c(17,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) test *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_16\03_03_16.c(10,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+  03_03_16.vcxproj -> C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_16\x64\Debug\03_03_16.exe
