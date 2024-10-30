@@ -25,7 +25,7 @@ int is_stack_empty(ArrayStack* AS) {
 
 void push(ArrayStack* AS, char c) {
 	if (is_stack_full(AS)) {
-		printf("½ºÅÃÀÌ °¡µæ Â÷ ÀÖ½À´Ï´Ù!\n");
+		printf("ìŠ¤íƒì´ ê°€ë“ ì°¨ ìˆìŠµë‹ˆë‹¤!\n");
 		exit(1);
 	}
 	AS->stack[++AS->top] = c;
@@ -33,7 +33,7 @@ void push(ArrayStack* AS, char c) {
 
 char pop(ArrayStack* AS) {
 	if (is_stack_empty(AS)) {
-		printf("½ºÅÃÀÌ ºñ¾î ÀÖ½À´Ï´Ù!\n");
+		printf("ìŠ¤íƒì´ ë¹„ì–´ ìˆìŠµë‹ˆë‹¤!\n");
 		exit(1);
 	}
 	return AS->stack[AS->top--];
@@ -45,34 +45,34 @@ int palindrome(char in_str[]) {
 	char ch, chs;
 	int len = strlen(in_str);
 
-	init_stack(&s); // ½ºÅÃÀ» ÃÊ±âÈ­ÇÏ¶ó
+	init_stack(&s); // ìŠ¤íƒì„ ì´ˆê¸°í™”í•˜ë¼
 	for (i = 0; i < len; i++) {
 		ch = in_str[i];
-		// ¸¸¾à ch°¡ ½ºÆäÀÌ½º°Å³ª ±¸µÎÁ¡ÀÌ¸é
+		// ë§Œì•½ chê°€ ìŠ¤í˜ì´ìŠ¤ê±°ë‚˜ êµ¬ë‘ì ì´ë©´
 		if (ch == ' ' || ispunct(ch)) continue;
-		ch = tolower(ch); // ch¸¦ ¼Ò¹®ÀÚ·Î º¯°æ
-		push(&s, ch); // ½ºÅÃ¿¡ »ğÀÔÇÑ´Ù.
+		ch = tolower(ch); // chë¥¼ ì†Œë¬¸ìë¡œ ë³€ê²½
+		push(&s, ch); // ìŠ¤íƒì— ì‚½ì…í•œë‹¤.
 	}
 	for (i = 0; i < len; i++) {
 		ch = in_str[i];
-		// ¸¸¾à ch°¡ ½ºÆäÀÌ½º°Å³ª ±¸µÎÁ¡ÀÌ¸é
+		// ë§Œì•½ chê°€ ìŠ¤í˜ì´ìŠ¤ê±°ë‚˜ êµ¬ë‘ì ì´ë©´
 		if (ch == ' ' || ispunct(ch)) continue;
-		ch = tolower(ch); // ch¸¦ ¼Ò¹®ÀÚ·Î º¯°æ
-		chs = pop(&s); // ½ºÅÃ¿¡¼­ ¹®ÀÚ¸¦ ²¨³½´Ù
-		if (ch != chs) return FALSE; // ½ÇÆĞ
+		ch = tolower(ch); // chë¥¼ ì†Œë¬¸ìë¡œ ë³€ê²½
+		chs = pop(&s); // ìŠ¤íƒì—ì„œ ë¬¸ìë¥¼ êº¼ë‚¸ë‹¤
+		if (ch != chs) return FALSE; // ì‹¤íŒ¨
 	}
-	return TRUE; // ¼º°ø
+	return TRUE; // ì„±ê³µ
 }
 
 int main() {
 	char str[MAX_SIZE];
-	printf("¹®ÀÚ¿­À» ÀÔ·ÂÇÏ¼¼¿ä: ");
+	printf("ë¬¸ìì—´ì„ ì…ë ¥í•˜ì„¸ìš”: ");
 	scanf("%[^\n]s", str);
 	if (palindrome(str)) {
-		printf("È¸¹®ÀÔ´Ï´Ù.\n");
+		printf("íšŒë¬¸ì…ë‹ˆë‹¤.\n");
 	}
 	else {
-		printf("È¸¹®ÀÌ ¾Æ´Õ´Ï´Ù.\n");
+		printf("íšŒë¬¸ì´ ì•„ë‹™ë‹ˆë‹¤.\n");
 	}
 	return 0;
 }
