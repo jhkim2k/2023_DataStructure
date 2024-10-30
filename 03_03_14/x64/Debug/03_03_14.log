@@ -1,0 +1,26 @@
+﻿  03_03_14.c
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_14\03_03_14.c(15,9): warning C4477: 'printf' : 서식 문자열 '%lu'에 'unsigned long' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_14\03_03_14.c(15,9): warning C4313: 'printf': 서식 문자열의 '%u'이(가) char *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_14\03_03_14.c(16,9): warning C4477: 'printf' : 서식 문자열 '%lu'에 'unsigned long' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_14\03_03_14.c(16,9): warning C4313: 'printf': 서식 문자열의 '%u'이(가) char *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_14\03_03_14.c(17,9): warning C4477: 'printf' : 서식 문자열 '%lu'에 'unsigned long' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_14\03_03_14.c(17,9): warning C4313: 'printf': 서식 문자열의 '%u'이(가) char *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_14\03_03_14.c(19,9): warning C4477: 'printf' : 서식 문자열 '%lu'에 'unsigned long' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_14\03_03_14.c(19,9): warning C4313: 'printf': 서식 문자열의 '%u'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_14\03_03_14.c(20,9): warning C4477: 'printf' : 서식 문자열 '%lu'에 'unsigned long' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_14\03_03_14.c(20,9): warning C4313: 'printf': 서식 문자열의 '%u'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_14\03_03_14.c(21,9): warning C4477: 'printf' : 서식 문자열 '%lu'에 'unsigned long' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_14\03_03_14.c(21,9): warning C4313: 'printf': 서식 문자열의 '%u'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_14\03_03_14.c(23,9): warning C4477: 'printf' : 서식 문자열 '%lu'에 'unsigned long' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'float *'입니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_14\03_03_14.c(23,9): warning C4313: 'printf': 서식 문자열의 '%u'이(가) float *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_14\03_03_14.c(24,9): warning C4477: 'printf' : 서식 문자열 '%lu'에 'unsigned long' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'float *'입니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_14\03_03_14.c(24,9): warning C4313: 'printf': 서식 문자열의 '%u'이(가) float *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_14\03_03_14.c(25,9): warning C4477: 'printf' : 서식 문자열 '%lu'에 'unsigned long' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'float *'입니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_14\03_03_14.c(25,9): warning C4313: 'printf': 서식 문자열의 '%u'이(가) float *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_14\03_03_14.c(27,9): warning C4477: 'printf' : 서식 문자열 '%lu'에 'unsigned long' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double *'입니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_14\03_03_14.c(27,9): warning C4313: 'printf': 서식 문자열의 '%u'이(가) double *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_14\03_03_14.c(28,9): warning C4477: 'printf' : 서식 문자열 '%lu'에 'unsigned long' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double *'입니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_14\03_03_14.c(28,9): warning C4313: 'printf': 서식 문자열의 '%u'이(가) double *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_14\03_03_14.c(29,9): warning C4477: 'printf' : 서식 문자열 '%lu'에 'unsigned long' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double *'입니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_14\03_03_14.c(29,9): warning C4313: 'printf': 서식 문자열의 '%u'이(가) double *' 형식의 인수 1과(와) 충돌합니다.
+  03_03_14.vcxproj -> C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\03_03_14\x64\Debug\03_03_14.exe
