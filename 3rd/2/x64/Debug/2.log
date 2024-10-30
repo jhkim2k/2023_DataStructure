@@ -1,0 +1,4 @@
+﻿  2.c
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\3rd\2\2.c(28,3): warning C4013: 'exit'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\3rd\2\2.c(65,42): warning C4047: '!=': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+  2.vcxproj -> C:\Users\jhkim\OneDrive\바탕 화면\데이터 구조 프로그래밍\과제\3rd\2\x64\Debug\2.exe
